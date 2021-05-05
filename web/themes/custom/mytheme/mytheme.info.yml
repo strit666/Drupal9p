@@ -1,4 +1,4 @@
-name: Bootstrap Barrio Subtheme
+name: My theme
 type: theme
 description: 'Basic structure for a Bootstrap Barrio SubTheme.'
 core: 8.x
@@ -6,8 +6,8 @@ core_version_requirement: ^8 || ^9
 base theme: bootstrap_barrio
 
 libraries:
-  - custom_barrio/bootstrap_cdn
-  - custom_barrio/global-styling
+  - mytheme/bootstrap_cdn
+  - mytheme/global-styling
 
 regions:
   top_header: 'Top header'

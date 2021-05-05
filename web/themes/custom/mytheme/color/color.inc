@@ -115,7 +115,7 @@ $info = [
   ],
 
   // Preview files.
-  'preview_library' => 'custom_barrio/color.preview',
+  'preview_library' => 'mytheme/color.preview',
   'preview_html' => 'color/preview.html',
 
   // Attachments.
@@ -123,7 +123,7 @@ $info = [
     'drupalSettings' => [
       'color' => [
         // Put the logo path into JavaScript for the live preview.
-        'logo' => theme_get_setting('logo.url', 'custom_barrio'),
+        'logo' => theme_get_setting('logo.url', 'mytheme'),
       ],
     ],
   ],

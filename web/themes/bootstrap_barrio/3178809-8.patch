@@ -54,14 +54,14 @@ index cd06a19..e788b98 100644
 +    bootstrap_barrio_tabs_style:
 +      type: string
 +      label: 'Tabs style'
-diff --git a/subtheme/config/schema/bootstrap_barrio_subtheme.schema.yml b/subtheme/config/schema/bootstrap_barrio_subtheme.schema.yml
+diff --git a/subtheme/config/schema/custom_barrio.schema.yml b/subtheme/config/schema/bootstrap_barrio_subtheme.schema.yml
 index b4ffe4f..3afa77f 100644
---- a/subtheme/config/schema/bootstrap_barrio_subtheme.schema.yml
-+++ b/subtheme/config/schema/bootstrap_barrio_subtheme.schema.yml
+--- a/subtheme/config/schema/custom_barrio.schema.yml
++++ b/subtheme/config/schema/custom_barrio.schema.yml
 @@ -1,297 +1,5 @@
  # Schema for the configuration files of the Bootstrap Barrio Subtheme.
  
- bootstrap_barrio_subtheme.settings:
+ custom_barrio.settings:
 -  type: theme_settings
 +  type: bootstrap_barrio.settings
    label: 'Bootstrap Barrio settings'
@@ -378,7 +378,7 @@ index 0000000..1e3651a
 +  /**
 +   * {@inheritdoc}
 +   */
-+  protected $defaultTheme = 'bootstrap_barrio_subtheme';
++  protected $defaultTheme = 'custom_barrio';
 +
 +}
 diff --git a/tests/src/Functional/BootstrapBarrioTest.php b/tests/src/Functional/BootstrapBarrioTest.php

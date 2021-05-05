@@ -1,5 +1,5 @@
 # Schema for the configuration files of the Bootstrap Barrio Subtheme.
 
-custom_barrio.settings:
+mytheme.settings:
   type: bootstrap_barrio.settings
   label: 'Bootstrap Barrio settings'

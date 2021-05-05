@@ -7,7 +7,7 @@
 
   'use strict';
 
-  Drupal.behaviors.custom_barrio = {
+  Drupal.behaviors.mytheme = {
     attach: function (context, settings) {
 
     }
