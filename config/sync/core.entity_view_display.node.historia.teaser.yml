@@ -1,0 +1,30 @@
+uuid: 70b8f380-7a29-421b-a670-60f68a190e43
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.historia.body
+    - node.type.historia
+  module:
+    - text
+    - user
+id: node.historia.teaser
+targetEntityType: node
+bundle: historia
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
