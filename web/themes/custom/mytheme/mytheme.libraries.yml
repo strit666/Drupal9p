@@ -32,7 +32,7 @@ color.preview:
     - color/drupal.color
 photoswipe:
   js:
-    photoswipe/photoswipe.js: {}
+    ../../../photoswipe/photoswipe.js: {}
   css:
     theme:
-      photoswipe/photoswipe.css: {}
+      ../../../photoswipe/photoswipe.css: {}
