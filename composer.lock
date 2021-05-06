@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "594f6c6d2e36c1bfaa5d7a8e200d031e",
+    "content-hash": "16311a6c496c560008bc5f84ab3c6326",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -57,6 +57,15 @@
                 "stack"
             ],
             "time": "2019-12-24T22:41:47+00:00"
+        },
+        {
+            "name": "bower-asset/photoswipe",
+            "version": "4.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/dimsemenov/PhotoSwipe/archive/v4.1.1.zip"
+            },
+            "type": "drupal-library"
         },
         {
             "name": "chi-teck/drupal-code-generator",
